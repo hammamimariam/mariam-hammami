@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FFDEE9, #B5FFFC); /* Pastel gradient */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #FFDEE9, #B5FFFC); /* Dégradé pastel */
+    padding: 1em 2em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar a:hover {
+    color: #333;
+}
+.quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    font-size: 2.5em;
+    color: #5C5CFF;
+    margin-bottom: 20px;
+    font-family: 'Verdana', sans-serif;
+}
+.question {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.answers label {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background: #FFFAF0; /* Light pastel */
+    border: 1px solid #FFDEE9;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.answers input {
+    margin-right: 10px;
+}
+.answers label:hover {
+    background: #FFDEE9; /* Slightly darker pastel */
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #FFF;
+    background: #5C5CFF; /* Bright pastel */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #4B4BCE; /* Darker button hover */
+}
+#results {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FF7F50;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #F8F9FA;
+    border-top: 1px solid #ddd;
+    color: #555;
+    font-size: 0.9em;
+}
